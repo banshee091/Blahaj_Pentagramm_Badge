@@ -1,0 +1,126 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a7f720df-5226-47da-b97d-a699f8341512")
+	(paper "A4")
+	(title_block
+		(title "Haibadge_Back")
+		(date "2024-07-27")
+		(rev "v1.0")
+		(company "Waldo und Peter und Mona")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 76.2 41.91) (xy 87.63 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12fab44-d0d8-461c-8cd3-41cc7730c166")
+	)
+	(sheet
+		(at 87.63 36.83)
+		(size 13.97 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06e5b8ae-2d1c-4f33-9cb4-f1dd2ab6de3f")
+		(property "Sheetname" "WS2812B"
+			(at 87.63 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "WS2812B.kicad_sch"
+			(at 87.63 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "WS2812B" input
+			(at 87.63 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ae32347-8abf-4beb-a5cd-dc3ebd669165")
+		)
+		(instances
+			(project "Haibadge_B"
+				(path "/a7f720df-5226-47da-b97d-a699f8341512"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 39.37)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b10c049-f943-40db-a187-9221f68b2962")
+		(property "Sheetname" "uC"
+			(at 63.5 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UC.kicad_sch"
+			(at 63.5 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "WS2812B" input
+			(at 76.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9168b6f6-084b-455f-8deb-900cf1dbf3f5")
+		)
+		(instances
+			(project "Haibadge_B"
+				(path "/a7f720df-5226-47da-b97d-a699f8341512"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
