@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "445218ba-a39a-400a-9cea-1d7736af472e")
 	(paper "A4")
+	(title_block
+		(title "Blahaj_Back")
+		(date "2024-08-02")
+		(rev "v1.0")
+		(company "Waldo")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73831-2-OT"
 			(exclude_from_sim no)
@@ -7144,70 +7150,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 265.43 140.97 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2754e389-c2ef-4312-82c2-fc1b0451a010")
-		(property "Reference" "H5"
-			(at 267.97 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 267.97 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 265.43 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 265.43 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Haibadge_B"
-				(path "/a7f720df-5226-47da-b97d-a699f8341512/1b10c049-f943-40db-a187-9221f68b2962"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 123.19 142.24 90)
 		(mirror x)
@@ -8378,7 +8320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0815_2038Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 153.67 93.218 90)
 			(effects
 				(font
@@ -8952,6 +8894,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 224.79 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "733f3179-eb1a-4285-9dd4-0450324608d3")
+		(property "Reference" "#PWR0113"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 224.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 224.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cff7797-870c-48b8-96dd-b48193227e0d")
+		)
+		(instances
+			(project "Haibadge_B"
+				(path "/a7f720df-5226-47da-b97d-a699f8341512/1b10c049-f943-40db-a187-9221f68b2962"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 265.43 156.21 0)
 		(unit 1)
@@ -9386,6 +9394,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 217.17 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a75f7e7-a385-4524-873b-694e4c2c08f2")
+		(property "Reference" "#PWR0111"
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ae18c31-2e8e-4a0c-856e-6fa97a2c375a")
+		)
+		(instances
+			(project "Haibadge_B"
+				(path "/a7f720df-5226-47da-b97d-a699f8341512/1b10c049-f943-40db-a187-9221f68b2962"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_USB:CH340C")
 		(at 199.39 93.98 0)
 		(mirror y)
@@ -9526,7 +9600,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KH-6X6X6H-STM:KH-6X6X6H-STM"
+		(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
 			(at 149.86 58.42 0)
 			(effects
 				(font
@@ -9904,6 +9978,207 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 217.17 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a955ab1-dcc9-4edc-95f6-23e427731950")
+		(property "Reference" "#PWR0112"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a70ed206-9a8b-4f31-aec9-12f47ce26b43")
+		)
+		(instances
+			(project "Haibadge_B"
+				(path "/a7f720df-5226-47da-b97d-a699f8341512/1b10c049-f943-40db-a187-9221f68b2962"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9143ff89-9094-41ed-b848-2c3a2a63d2da")
+		(property "Reference" "C24"
+			(at 207.518 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 207.518 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 218.1352 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "deacb19a-971b-4982-b3ed-53724c686e21")
+		)
+		(pin "1"
+			(uuid "11aeee7a-737c-4a08-ae25-58a8f038ec14")
+		)
+		(instances
+			(project "Haibadge_B"
+				(path "/a7f720df-5226-47da-b97d-a699f8341512/1b10c049-f943-40db-a187-9221f68b2962"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92c3d149-dd53-4102-bec5-a875b4df3808")
+		(property "Reference" "#PWR0114"
+			(at 224.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "564a74ec-e566-4f04-b812-548eac5ec9a7")
+		)
+		(instances
+			(project "Haibadge_B"
+				(path "/a7f720df-5226-47da-b97d-a699f8341512/1b10c049-f943-40db-a187-9221f68b2962"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:UMH3N")
 		(at 185.42 27.94 0)
 		(unit 1)
@@ -9959,22 +10234,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "8817b3b2-e7b3-40d2-bdb4-598861f63927")
+			(uuid "8817b3b2-e7b3-40d2-bdb4-598861f63928")
 		)
 		(pin "3"
-			(uuid "457067f3-7638-4280-92c0-e3de2a19b737")
+			(uuid "457067f3-7638-4280-92c0-e3de2a19b738")
 		)
 		(pin "1"
-			(uuid "6b530d70-4128-4579-a360-159ee91cc215")
+			(uuid "6b530d70-4128-4579-a360-159ee91cc216")
 		)
 		(pin "6"
-			(uuid "d6f598b6-1dd0-49b4-92f1-a924d6e3fd16")
+			(uuid "d6f598b6-1dd0-49b4-92f1-a924d6e3fd17")
 		)
 		(pin "2"
-			(uuid "069633c5-664b-4961-bf6f-f61c595e7205")
+			(uuid "069633c5-664b-4961-bf6f-f61c595e7206")
 		)
 		(pin "4"
-			(uuid "181a774f-f2cd-42cc-9254-1d850c536374")
+			(uuid "181a774f-f2cd-42cc-9254-1d850c536375")
 		)
 		(instances
 			(project ""
@@ -10180,6 +10455,76 @@
 			(project ""
 				(path "/a7f720df-5226-47da-b97d-a699f8341512/1b10c049-f943-40db-a187-9221f68b2962"
 					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 224.79 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2bcefe7-35dc-4e2c-a6ef-208fc7f32487")
+		(property "Reference" "C25"
+			(at 228.6 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 228.6 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 225.7552 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16267c61-2efe-45b5-9963-df1f62b1ae01")
+		)
+		(pin "1"
+			(uuid "2b89bca8-4dcc-4e45-8017-74e10dff3f85")
+		)
+		(instances
+			(project "Haibadge_B"
+				(path "/a7f720df-5226-47da-b97d-a699f8341512/1b10c049-f943-40db-a187-9221f68b2962"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -12470,70 +12815,6 @@
 			(project "Haibadge_B"
 				(path "/a7f720df-5226-47da-b97d-a699f8341512/1b10c049-f943-40db-a187-9221f68b2962"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 265.43 146.05 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f84bfddc-b3fd-461a-8e25-2b4070c5a0cc")
-		(property "Reference" "H4"
-			(at 267.97 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 267.97 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 265.43 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 265.43 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Haibadge_B"
-				(path "/a7f720df-5226-47da-b97d-a699f8341512/1b10c049-f943-40db-a187-9221f68b2962"
-					(reference "H4")
 					(unit 1)
 				)
 			)

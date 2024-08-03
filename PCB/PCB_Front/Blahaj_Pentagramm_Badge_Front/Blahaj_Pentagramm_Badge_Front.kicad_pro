@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 2.7,
+          "height": 2.7,
+          "width": 2.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,13 +51,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -177,11 +171,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.3,
-        0.5
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -208,12 +198,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -446,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Haibadge_B.kicad_pro",
+    "filename": "Blahaj_Pentagramm_Badge_Front.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -591,16 +576,8 @@
   },
   "sheets": [
     [
-      "a7f720df-5226-47da-b97d-a699f8341512",
+      "7af7ad00-e473-4529-a9a7-3580bed83213",
       "Stammblatt"
-    ],
-    [
-      "06e5b8ae-2d1c-4f33-9cb4-f1dd2ab6de3f",
-      "WS2812B"
-    ],
-    [
-      "1b10c049-f943-40db-a187-9221f68b2962",
-      "uC"
     ]
   ],
   "text_variables": {}
