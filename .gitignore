@@ -2,6 +2,7 @@
 # Format documentation: https://kicad.org/help/file-formats/
 
 # Temporary files
+*.blend1
 *.000
 *.bak
 *.bck
