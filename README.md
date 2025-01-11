@@ -9,3 +9,16 @@ Build WLED (https://github.com/Aircoookie/WLED) using PlatformIO with the follow
 build_flags = ${common.build_flags_esp8266} -D USERMOD_BME280 -D USERMOD_PIRSWITCH -D PIR_SENSOR_PIN=13
 ...
 `
+
+Configuration:
+```
+LED Preferences: 
+    -> Length = 15
+    -> GPIO = 14
+Usermods:
+    -> SDA = 4
+    -> SCL = 5
+    -> Enabled
+
+    Reboot
+```
